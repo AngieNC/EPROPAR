@@ -50,6 +50,38 @@
   <li><strong>Fundamentos Sólidos de Desarrollo Web:</strong>: A través de este proyecto, hemos consolidado nuestros conocimientos en HTML y CSS, dos lenguajes fundamentales en el desarrollo web. Ahora tenemos una base sólida para construir y diseñar sitios web de manera efectiva.</li>
 </ul>
 
+<br/><br/>
+<h2 align="center"> Diseño de la Interfaz de Usuario</h2>
+
+
+<p>En este proyecto, hemos puesto un énfasis significativo en el diseño de la interfaz de usuario (UI) para crear una experiencia visualmente atractiva y amigable para nuestros usuarios. Aquí están algunos de los aspectos clave del diseño de UI que hemos considerado:</p>
+
+<h4 align="center">Paleta de Colores</h4>
+<p>Hemos seleccionado cuidadosamente una paleta de colores que refleja la identidad de nuestra marca y crea una atmósfera agradable para los usuarios. Los colores elegidos son:</p>
+<ul>
+  <li>Color Principal: #8DB286</li>
+  <li>Color Fondo: #FFFFFF</li>
+  <li>Color Letras: #000000</li>
+</ul>
+<p>Estos colores se utilizan de manera coherente en toda la página web para garantizar una experiencia visual uniforme.</p>
+<br/>
+
+<h4 align="center">Fuentes Tipográficas</h4>
+<p>Hemos optado por fuentes tipográficas que son legibles y atractivas para mejorar la legibilidad del contenido. Las fuentes utilizadas son:</p>
+<ul>
+  <li>Encabezados:'Darker Grotesque'</li>
+  <li>Parrafos: 'Poppins'</li>
+  <li>Logo: 'Be Vietnam Pro'</li>
+</ul>
+
+<p>Estas fuentes tienen como segunda opcion el uso de la familia sans-serif, llegao el caso el navegador usado no pueda descargar la tipografia.</p>
+
+<h4 align="center">Imagenes </h4>
+
+Para agregar material visual en nuestra plataforma, decidimos usar una pagina llamada [StorySet](https://storyset.com/)  , donde podemos obtener imagenes costumizables con nuestro color principal. Dando un diseno visual mas tranquilo.
+
+
+
 
 <br/><br/>
 <h2 align="center"> Diseños</h2>
@@ -94,7 +126,7 @@
 
 
 
-<h3 align="center" >Modelo Desktop</h3>
+<h3 align="center" >Modelo Mobile</h3>
 
 <b>PAGINA PRINCIPAL - Mobile</b>
 
