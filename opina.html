@@ -44,6 +44,7 @@
     <main>
         <div class="section_1">
             <h1>Danos tu opinion</h1>
+            <br>
             <h3>REGLAS:</h3>
             <ol>
                 <li>Se debe ser respetuoso al momento de expresar tu opinión.</li>
@@ -52,16 +53,22 @@
             </ol>
         </div>
         <form>
+            <h3>Formulario</h3>
             <div class="mb-3">
-                <label for="nombre" class="form-label">Nombres</label>
+                <label for="nombre" class="form-label">Nombre/s</label>
+                <br>
                 <input type="text" class="form-control" id="nombre">
             </div>
             <div class="mb-3">
-                <label for="apellido" class="form-label">Apellidos</label>
+                <br>
+                <label for="apellido" class="form-label">Apellido/s</label>
+                <br>
                 <input type="text" class="form-control" id="apellido">
             </div>
             <div class="mb-3">
+                <br>
                 <label for="documento" class="form-label">Tipo de documento</label>
+                <br>
                 <select id="documento" class="form-select">
                     <option>--Selecciona</option>
                     <option>Cedula de ciudadanía</option>
@@ -70,31 +77,41 @@
                 </select>
             </div>
             <div class="mb-3">
-            <label for="cedula" class="form-label">Numero del documento</label>
-            <input type="number" class="form-control" id="cedula">
+                <br>
+                <label for="cedula" class="form-label">Numero del documento</label>
+                <br>
+                <input type="number" class="form-control" id="cedula">
             </div>
             <div class="mb-3">
-            <label for="celular" class="form-label">Numero de telefono</label>
-            <input type="number" class="form-control" id="celular">
+                <br>
+                <label for="celular" class="form-label">Numero de telefono</label>
+                <br>
+                <input type="number" class="form-control" id="celular">
             </div>
             <div class="mb-3">
-            <label for="tema" class="form-label">Tema</label>
-            <select id="tema" class="form-select">
-                <option>--Selecciona</option>
-                <option>Educación</option>
-                <option>Infraestrucuta</option>
-                <option>Seguridad</option>
-                <option>Alimentación</option>
-                <option>Salud Mental</option>
-            </select>
+                <br>
+                <label for="tema" class="form-label">Tema</label>
+                <br>
+                <select id="tema" class="form-select">
+                    <option>--Selecciona</option>
+                    <option>Educación</option>
+                    <option>Infraestrucuta</option>
+                    <option>Seguridad</option>
+                    <option>Alimentación</option>
+                    <option>Salud Mental</option>
+                </select>
             </div>
             <div class="mb-3">
+                <br>
                 <label for="direccion" class="form-label">Dirección</label>
+                <br>
                 <input type="text" class="form-control" id="direccion">
             </div>
             <div class="mb-3">
+                <br>
                 <label for="opinion" class="form-label">Deja tu opinión aquí</label>
-                <textarea id="opiniom" cols="30" rows="10"></textarea>
+                <br>
+                <textarea class="form-control" cols="30" rows="10" placeholder="Toda opinión es importante."></textarea>
             </div>
             <button type="submit" class="btn btn-primary">ENVIAR</button>
             <button type="reset" class="btn btn-primary">LIMPIAR</button>

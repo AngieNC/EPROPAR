@@ -61,7 +61,16 @@ div p{
     text-align: start;
 }
 
-footer{
+.contacto{
+    display: grid;
+    height: 100px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+    grid-column: span 1 / 7;
+    grid-column: p 2 / 10;
+}
+
+/*footer{
     background-color: #8DB286;
     bottom: 0;
     position: absolute;
