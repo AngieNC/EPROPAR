@@ -14,20 +14,26 @@ html,body{
 }
 
 main{
-    margin: 70px 70px 70px 70px; 
+    margin: 100px 100px 100px 100px; 
     background-color: #D5D5D5a5;
     border-radius: 25px;
     width: auto;
 }
 
-.somos{
+main .somos .texto{
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.somos .texto
+
+main .entidades .texto2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+}
 
 div h2{
     color:var(--color-principal);
@@ -36,21 +42,14 @@ div h2{
     font-family: var(--fuente-logo);
     padding-bottom: 5px;
     padding-top: 50px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 div hr{
-    width: 70%;
+    width: 60%;
     height: 5px;
     background-color: var(--color-principal);
     
-}
-
-.proposito hr{
-    margin-left: 30%;
-}
-.seleccion hr{
-    margin-left: 30%;
 }
 
 div p{
@@ -62,24 +61,39 @@ div p{
     text-align: start;
 }
 
+
 img{
-    width: 30%;
+    width: 70%;
     
 }
+
+.somos hr{
+    width: 50%;
+}
+
 
 .proposito h2{
     padding-right: 20px;
     text-align: end;
 }
+.proposito hr{
+    margin-left: 40%;
+}
 
 .proposito p{
     margin: 20px;
     text-align: end;
+    padding-left: 210px;
 }
 
 .entidades{
     width: 100%;
     margin: 0 auto;
+    font-size: 20px;
+}
+
+.entidades hr{
+    width: 50%;
 }
 .entidades ul {
     width: 100%;
@@ -87,12 +101,17 @@ img{
     flex-direction: column;
     
 }
+
 .entidades ul .items{
     font-family: var(--fuente-titulo);
-    font-size: 1rem;
     list-style:disc;
     margin-left: 50px;
     flex-wrap: wrap;
+}
+
+.entidades .texto2 .p2{
+    flex-direction: column;
+
 }
 
 .seleccion h2{
@@ -100,8 +119,13 @@ img{
     padding-right: 20px;
 }
 
+.seleccion hr{
+    margin-left: 40%;
+}
+
 .seleccion p{
     text-align: end;
+    padding-left: 270px;
 }
 
 .contacto{
@@ -111,6 +135,9 @@ img{
     flex-direction: column;
 }
 
+.contacto h2{
+    padding-top: 5px;
+}
 .contacto .contenedor-icons{
     margin-top: 30px;
     margin-bottom: 30px;
