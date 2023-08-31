@@ -16,14 +16,14 @@ Por tal motivo, esta plataforma innovadora se enfoca en empoderar a la comunidad
 
 Gracias a la información tomada del periodico colombiano El Nuevo Siglo se decidió seleccionar al municipio de Alto Baudó, localizado en el departamento del Choco con una tasa de incidencia de pobreza del 90,6% ubicandose en el tercer puesto según lo indicado en el reporte del DANE.
 
-# Objetivo:
+<h2 align="center">Objetivos</h2>
+<p> Crear una plataforma web comunitaria, donde se recolecten datos para luego analizarlos y organizarlos. Mediante este proyecto se quiere fortalecer y notificar los principales problemas que presentan la población mayoritaria en el departamento del Chocó, Alto Baudó. Para ello hacemos uso de las tic donde se plantea la creación de una página web que almacene los problemas más cotidianos e importantes de este sector. Estructurando  y organizando la informacion de manera clara y precisa para generar un mayor entendimiento de los datos recolectados para las organizaciones.</p>
+<p>
+La comunidad de Alto Baudo tendra la posibilidad de expresar a las entidades sus principales problemas a solucionar, y por parte de las organizadores se obtendria y manejaria la base de datos que se recolecta de manera optimizada y directa, las cuales mejorarian la ejecucion de los planes de accion por parte de los entes.</p>
 
-Mediante este proyecto se quiere fortalecer y notificar los principales problemas que presentan la población mayoritaria en el departamento del Chocó, Alto Baudó. Para ello hacemos uso de las tic donde se plantea la creación de una página web que almacene los problemas más cotidianos e importantes de este sector. Estructurando  y organizando la informacion de manera clara y precisa para generar un mayor entendimiento de los datos recolectados para las organizaciones.
 
-La comunidad de Alto Baudo tendra la posibilidad de expresar a las entidades sus principales problemas a solucionar, y por parte de las organizadores se obtendria y manejaria la base de datos que se recolecta de manera optimizada y directa, las cuales mejorarian la ejecucion de los planes de accion por parte de los entes.
+<h2 align="center"> Características Clave de la Plataforma</h2>
 
-
-## Características Clave de la Plataforma: 
 
 1. **Formulario de Opinión**: Los ciudadanos pueden compartir sus opiniones a través de un formulario en línea, proporcionando detalles y contexto sobre sus preocupaciones y sugerencias, pues el formulario incluye categorías predefinidas para que los usuarios seleccionen el tema al que se refiere su opinión (Educación, Salud Mental, Infraestructura, Alimentación, Seguridad, entre otros).
 
@@ -35,7 +35,7 @@ La comunidad de Alto Baudo tendra la posibilidad de expresar a las entidades sus
 
 5. **Proceso de Selección Mensual**: Cada mes, se seleccionan tres opiniones ganadoras en las categorías de Educación, Salud Mental, Infraestructura, Alimentación y Seguridad. Estas selecciones se basan en las calificaciones de los usuarios. Las opiniones ganadoras reciben apoyo económico, con el 50% del fondo destinado a la opinión más votada y el 25% para las dos siguientes con mayor votación. Este enfoque democrático fomenta la participación activa y el compromiso de la comunidad en la resolución de problemas locales.
 
-### Tecnologias relevantes
+<h2 align="center"> Tecnologias relevantes</h2>
 
 - Diseño de interfaz usuario UI / Experiencia usuario UX
 - Metodologia de recoleccion de datos
@@ -43,32 +43,42 @@ La comunidad de Alto Baudo tendra la posibilidad de expresar a las entidades sus
 - Framework
 - Figma
 
-
-## Conclusiones: 
+<h2 align="center"> Conclusiones</h2>
 
 La plataforma <em>EPROPAR</em> es una solución innovadora que promueve la participación ciudadana y la colaboración con entidades gubernamentales en el Chocó. Con su enfoque en la recolección y calificación de opiniones, así como el apoyo financiero a iniciativas destacadas, se posiciona como un modelo ejemplar de cómo las tecnologías digitales pueden fortalecer la democracia y el progreso local. Con su espíritu sin ánimo de lucro y su compromiso con las cuestiones más apremiantes de la comunidad, <em>EPROPAR</em> demuestra el poder transformador de la participación ciudadana.
 
-## Diseños:
+<h2 align="center"> Diseños</h2>
 
-Modelo Desktop
-==
-![Inicio](img/inicio.png)
-![Pasos](img/pasos.png)
+<h3 align="center" >Modelo Desktop</h3>
 
-En esta sección principal se puede evidenciar los ganadores mensuales como se había dicho en el punto 5 de las <em>características clave de la plataforma</em>. Podemos ver el header que indica el principal objetivo de la página y un título prometedor,también esta el nav como barra superior con tres secciones o sub-páginas y a la izquierda el logo de nuestra entidad. En esa misma página se ven las proximas fechas para que los ciudadanos sigan participando opinando y calificando,también se ven las opiniones principales y por último, la indicación de pasos para que los ciudadanos se puedan guiar mejor y participar activamente de la mejor forma.
+<b>Pagina principal</b>
+  
+  <ul>
+    <li><b>Primera seccion:</b>Permitira al usuario redirigirse a la pagina de OPINA. <br/> <img src="img/Hero.png" alt="Hero" style="width: 300px;" /></li><br/>
+    <li><b>Segunda seccion:</b>Informara las opiniones ganadora del mes actual y se muestra la fecha del nuevo concurso.<br/> <img src="img/Ganador.png" alt="Ganador" style="width: 300px;" /></li><br/>
+    <li><b>Tercera seccion:</b>Dedicada a destacar las primeras cuatro posiciones de las opiniones con mayor puntuacion.<br/> <img src="img/opiniones.png" alt="Opiniones" style="width: 300px;" /> </li><br/>
+    <li><b>Cuarta seccion:</b>Brinda informacion de los pasos a seguir para que el usuario pueda opinar y los pasos para que se pueda calificar.<br/><img src="img/Pasos.png" alt="Pasos" style="width: 300px;" /></li><br/>
+  </ul>
 
-![Opiniones](img/opiniones.png)
+<b>Pagina de Opiniones</b>
 
-Esta es una sub-página para que todos vean las opiniones de otras personas y puedan elegir con cual estan de acuerdo y darle "me gusta", para que sea esa sección (según el tema) el ganador mensual.
+<p> Esta es una sub-página se encarga de mostrar las opiniones de los ciudadanos. Ofreciendo la oportunidad de posicionar los comentarios dependiendo de los "me gusta" dandos.</p>
+<br/><img src="img/page_opiniones.png" alt="Page-opiniones" style="width: 300px;" />
 
-![Paginas](img/final.png)
 
-Acá se pueden evidenciar dos sub-paginas, la primera es para agregar la opinión que el ciudadano va aportar y se llena un formulario para la respectiva opinión.
+<b>Pagina del Formulario</b>
 
-Y la segunda sub-pagina es para darnos a conocer como entidad, nuestro propósito, el proceso de selección y las entidades, empresas o fundaciones con las que trabajamos, además de proporcionar nuestro contacto para mayor información o en para dar lugar a casos extraordinarios.
+<p> Este formulario nos permite captar y almacenar la informacion del usuario, para luego mostrarla en la seccion de Opiniones.</p>
+<br/><img src="img/page_formulario.png" alt="Page-formulario" style="width: 300px;" />
 
-Modelo Mobile
-==
+<b>Pagina de Conocenos</b>
+
+<p> La sub-pagina de Conocenos, se encarga de mostrar informacion relevante para los ciudadanos. Se habla de Quienes Somos, el proposito, las entidades asociadas, manejo del proceso de selecion y los datos disponibles para poderse comunicar con EPROPAR</p>
+<br/><img src="img/page_contacto.png" alt="Page-Contacto" style="width: 300px;" />
+
+
+<h3 align="center" >Modelo Mobile</h3>
+
 ![Inicio](img/main.png)
 ![Inicio](img/main2.png)
 ![Inicio](img/main3.png)
