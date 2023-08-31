@@ -47,7 +47,7 @@ mb-3.form-control  + .form-select{
     border-radius: 14px;
 }
 
-footer{
+/*footer{
     background-color: #8DB286;
     bottom: 0;
     position: absolute;
