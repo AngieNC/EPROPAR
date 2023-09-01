@@ -14,13 +14,17 @@
 #opiniones .titulo-califica {
   font-size: 3.5rem;
   color: #8db286;
+  font-family: var(--fuente-logo) ;
 }
+
+
 
 #opiniones h4 {
   font-size: 12px;
   width: 90%;
   margin-left: 8%;
   text-align: start;
+  font-family: var(--fuente-titulo);
 }
 
 #opiniones p {
@@ -28,5 +32,6 @@
   width: 90%;
   text-align: start;
   margin-left: 8%;
+  font-family: var(--fuente-titulo);
 }
 

@@ -182,6 +182,7 @@ display: none;
   flex-direction: row;
 }
 
+
 /* pie de pagina */
 footer{
   background-color:var(--color-principal);

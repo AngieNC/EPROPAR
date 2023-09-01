@@ -205,6 +205,8 @@ main .contenedor-info .contenedor-parrafo button {
   background-color: var(--color-principal);
   margin: 25px 0;
   padding: 15px 5px;
+  font-family: var(--fuente-logo);
+  text-align: center;
 }
 
 /* seccion de las opiniones */
@@ -417,6 +419,9 @@ main .contenedor-info .contenedor-parrafo button {
   font-family: var(--fuente-titulo);
   font-size: 1.1rem;
   font-weight: 600;
+  margin-left: 38%;
+  margin-right: 38%;
+
 }
 #pasos .contenedor-paso1 p {
   color: #000;
