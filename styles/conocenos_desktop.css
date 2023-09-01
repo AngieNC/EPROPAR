@@ -162,16 +162,18 @@ footer{
     text-align: center;
     font-family: var(--fuente-logo);
 }
+
 footer h2{
-    font-size: 2rem;
-    padding: 15px 0 8px 0;
+    font-size: 3rem;
+    padding: 20px 0 8px 0;
 }
 
 footer .footer2{
-    font-size: 0.8rem;
-    padding: 15px 10px 0 10px;
-}
-footer .footer3{
     font-size: 1rem;
-    padding: 0 0 15px 0;
+    padding: 15px 0px 0 0px;
+}
+
+footer .footer3{
+    font-size: 1.2rem;
+    padding: 0 0 40px 0;
 }
