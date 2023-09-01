@@ -16,14 +16,15 @@ html,body{
 
 .section_1 h1{
     font-family: var(--fuente-logo);
-    font-size: 29px;
+    font-size: 45px;
     color: var(--color-principal);
-    text-align: center;
+    text-align: start;
+    padding-left: 10%;
     padding-top: 40px;
 }
 
 .section_1 h3{
-    margin-left: 10% ;
+    margin-left: 22% ;
 }
 .section_1 h3,ol{
     font-family: var(--fuente-titulo);
@@ -34,16 +35,51 @@ html,body{
 .section_1 ol .items{
     font-size: 1rem;
     list-style:decimal;
-    margin-left: 15%;
+    margin-left: 25%;
     flex-wrap: wrap;
 }
 
 form{
     background-color: #D9D9D9;
     padding: 30px;
-    margin: 90px 100px 90px 100px;
     border-radius: 15px;
     font-family: var(--fuente-logo);
+    
+}
+
+form .general{
+    margin: 90px 500px 90px 500px;
+    position: sticky;
+}
+
+form .todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+form h3{
+    text-align: center;
+    font-family: var(--fuente-logo);
+    padding: 25px 10px;
+    font-size: 2rem;
+}
+
+form textarea:placeholder {
+    font-family: var(--fuente-logo);
+}
+
+form .todo .parte1{
+    padding: 0 30px 0 50px;
+    flex-direction: column;
+}
+
+form .todo .parte2{
+    padding: 0 30px 0 50px;
+    flex-direction: column;
 }
 
 form .form-label{
@@ -51,26 +87,17 @@ form .form-label{
 }
 
 form .mb-3 .form-control{
-    padding: 10px;
-    width: 100%;
+    padding: 15px;
+    width: 15rem;
     border-radius: 15px;
 }
 
 form .mb-3 .form-select{
-    width: 100%;
-    padding: 10px;
+    padding: 15px;
+    width: 15rem;
     border-radius: 15px;
 }
 
-form h3{
-    text-align: center;
-    font-family: var(--fuente-logo);
-    padding-bottom: 10px;
-}
-
-form textarea:placeholder {
-    font-family: var(--fuente-logo);
-}
 
 footer{
     background-color:var(--color-principal);

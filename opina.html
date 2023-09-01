@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="/styles/style-index-desktop.css" media="(min-width: 769px)">
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
         <link rel="stylesheet" href="/styles/opina.css">
+        <link rel="stylesheet" href="/styles/opina_desktop.css" media="(min-width: 632px)">
     </head>
 <body>
     <header>
@@ -42,69 +43,79 @@
       </header>
     <main>
         <div class="section_1">
-            <h1>Danos tu opinion</h1>
+            <h1>Danos tu opinión</h1>
             <br>
+            <div class="texto">
             <h3>REGLAS:</h3>
             <ol>
-                <li>Se debe ser respetuoso al momento de expresar tu opinión.</li>
-                <li>Trata de ser conciso con tu descripción.</li>
-                <li>Selecciona muy bien el tema que asocias con tu opinión.</li>
+                <li class="items">Se debe ser respetuoso al momento de expresar tu opinión.</li>
+                <li class="items">Trata de ser conciso con tu descripción.</li>
+                <li class="items">Selecciona muy bien el tema que asocias con tu opinión.</li>
             </ol>
+            </div>
         </div>
         <form>
             <h3>Formulario</h3>
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre/s</label>
-                <br>
-                <input type="text" class="form-control" id="nombre">
-            </div>
-            <div class="mb-3">
-                <br>
-                <label for="apellido" class="form-label">Apellido/s</label>
-                <br>
-                <input type="text" class="form-control" id="apellido">
-            </div>
-            <div class="mb-3">
-                <br>
-                <label for="documento" class="form-label">Tipo de documento</label>
-                <br>
-                <select id="documento" class="form-select">
-                    <option>--Selecciona</option>
-                    <option>Cedula de ciudadanía</option>
-                    <option>Cedula de extranjería</option>
-                    <option>Tarjeta de identidad</option>
-                </select>
-            </div>
-            <div class="mb-3">
-                <br>
-                <label for="cedula" class="form-label">Numero del documento</label>
-                <br>
-                <input type="number" class="form-control" id="cedula">
-            </div>
-            <div class="mb-3">
-                <br>
-                <label for="celular" class="form-label">Numero de telefono</label>
-                <br>
-                <input type="number" class="form-control" id="celular">
-            </div>
-            <div class="mb-3">
-                <br>
-                <label for="tema" class="form-label">Tema</label>
-                <br>
-                <select id="tema" class="form-select">
-                    <option>--Selecciona</option>
-                    <option>Educación</option>
-                    <option>Infraestrucuta</option>
-                    <option>Seguridad</option>
-                    <option>Alimentación</option>
-                    <option>Salud Mental</option>
-                </select>
-            </div>
+            <div class="general">
+                <div class="todo">
+                    <div class="parte1">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre/s</label>
+                            <br>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <br>
+                            <label for="apellido" class="form-label">Apellido/s</label>
+                            <br>
+                            <input type="text" class="form-control" id="apellido">
+                        </div>
+                        <div class="mb-3">
+                            <br>
+                            <label for="documento" class="form-label">Tipo de documento</label>
+                            <br>
+                            <select id="documento" class="form-select">
+                                <option>--Selecciona</option>
+                                <option>Cedula de ciudadanía</option>
+                                <option>Cedula de extranjería</option>
+                                <option>Tarjeta de identidad</option>
+                            </select>
+                        </div>
+                    </div> 
+                    <div class="parte2">
+                        <div class="mb-3">
+                            <br>
+                            <label for="cedula" class="form-label">Numero del documento</label>
+                            <br>
+                            <input type="number" class="form-control" id="cedula">
+                        </div>
+                        <div class="mb-3">
+                            <br>
+                            <label for="celular" class="form-label">Numero de telefono</label>
+                            <br>
+                            <input type="number" class="form-control" id="celular">
+                        </div>
+                        <div class="mb-3">
+                            <br>
+                            <label for="tema" class="form-label">Tema</label>
+                            <br>
+                            <select id="tema" class="form-select">
+                                <option>--Selecciona</option>
+                                <option>Educación</option>
+                                <option>Infraestrucuta</option>
+                                <option>Seguridad</option>
+                                <option>Alimentación</option>
+                                <option>Salud Mental</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             <div class="mb-3">
                 <br>
                 <label for="direccion" class="form-label">Dirección</label>
                 <br>
                 <input type="text" class="form-control" id="direccion">
+                
             </div>
             <div class="mb-3">
                 <br>
@@ -114,6 +125,7 @@
             </div>
             <button type="submit" class="btn btn-primary">ENVIAR</button>
             <button type="reset" class="btn btn-primary">LIMPIAR</button>
+        </div>
         </form>
     </main>
     <footer>
