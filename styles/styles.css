@@ -1,0 +1,32 @@
+/* Your existing CSS code */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&family=Darker+Grotesque:wght@400;800&family=Poppins&display=swap");
+
+:root {
+  --fuente-logo: "Be Vietnam Pro", sans-serif;
+  --fuente-parrafo: "Darker Grotesque", sans-serif;
+  --fuente-titulo: "Poppins", sans-serif;
+  --color-principal: #8db286;
+}
+
+/* seccion de las opiniones */
+
+#opiniones .titulo-califica {
+  font-size: 3.5rem;
+  color: #8db286;
+}
+
+#opiniones h4 {
+  font-size: 12px;
+  width: 90%;
+  margin-left: 8%;
+  text-align: start;
+}
+
+#opiniones p {
+  font-size: 12px;
+  width: 90%;
+  text-align: start;
+  margin-left: 8%;
+}
+
