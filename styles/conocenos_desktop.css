@@ -8,6 +8,7 @@
     --color-principal: #8db286;
 }
 
+/* Seccion General  */
 html,body{
     width: 100vw;
     font-size: 16px;
@@ -67,11 +68,12 @@ img{
     
 }
 
+/* Seccion primera pregunta del conocenos  */
 .somos hr{
     width: 50%;
 }
 
-
+/* Seccion segunda pregunta del conocenos  */
 .proposito h2{
     padding-right: 20px;
     text-align: end;
@@ -86,6 +88,7 @@ img{
     padding-left: 210px;
 }
 
+/* Seccion tercera pregunta del conocenos  */
 .entidades{
     width: 100%;
     margin: 0 auto;
@@ -114,6 +117,7 @@ img{
 
 }
 
+/* Seccion cuarta pregunta del conocenos  */
 .seleccion h2{
     text-align: end;
     padding-right: 20px;
@@ -128,6 +132,7 @@ img{
     padding-left: 270px;
 }
 
+/* Seccion quinta parte del conocenos  */
 .contacto{
     display: flex;
     align-items: left;
@@ -155,7 +160,7 @@ img{
     padding: 0 0 8px 20px;
 }
 
-
+/* Seccion pie de pagina  */
 footer{
     background-color:var(--color-principal);
     width: 100%;

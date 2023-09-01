@@ -7,6 +7,7 @@
     --color-principal: #8db286;
 }
 
+/* Seccion General  */
 html,body{
     width: 100vw;
     font-size: 16px;
@@ -17,6 +18,7 @@ main{
     width: 100%;
 }
 
+/* Seccion primera pregunta del conocenos  */
 main .somos{
     display: flex;
     align-items: start;
@@ -24,7 +26,7 @@ main .somos{
     flex-direction: column;
 }
 
-
+/* Seccion General de div  */
 div h2{
     color:var(--color-principal);
     text-align: start;
@@ -55,10 +57,12 @@ img{
     width: 70%;
 }
 
+/* Seccion clases */
 .imagenes{
     text-align: center;
 }
 
+/* Seccion tercera pregunta */
 .entidades{
     width: 100%;
     margin: 0 auto;
@@ -80,7 +84,7 @@ img{
     flex-wrap: wrap;
 }
 
-
+/* Seccion quinta pregunta */
 .contacto{
     display: flex;
     align-items: left;
@@ -96,6 +100,7 @@ img{
 
 }
 
+/* Seccion pie de pagina */
 footer{
     background-color:var(--color-principal);
     width: 100%;

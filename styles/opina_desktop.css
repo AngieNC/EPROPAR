@@ -98,6 +98,37 @@ form .mb-3 .form-select{
     border-radius: 15px;
 }
 
+.general .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.general .btn-1{
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 0 25px 7px 25px;
+    border-radius: 130px;
+    background-color: var(--color-principal);
+    border: none;
+    box-shadow: 2px -1px 10px -3px rgba(0, 0, 0, 0.5);
+    font-family: var(--fuente-parrafo);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.general .btn-2{
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 0 25px 7px 25px;
+    border-radius: 130px;
+    background-color: #E9BFBA;
+    border: none;
+    box-shadow: 2px -1px 10px -3px rgba(0, 0, 0, 0.5);
+    font-family: var(--fuente-parrafo);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 
 footer{
     background-color:var(--color-principal);
