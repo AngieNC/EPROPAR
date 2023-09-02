@@ -13,29 +13,24 @@ html,body{
     width: 100vw;
     font-size: 16px;
 }
-
 main{
     margin: 100px 100px 100px 100px; 
     background-color: #D5D5D5a5;
     border-radius: 25px;
     width: auto;
 }
-
 main .somos .texto{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 }
-
-
 main .entidades .texto2{
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: row;
 }
-
 div h2{
     color:var(--color-principal);
     text-align: start;
@@ -45,14 +40,11 @@ div h2{
     padding-top: 50px;
     font-size: 3rem;
 }
-
 div hr{
     width: 60%;
     height: 5px;
     background-color: var(--color-principal);
-    
 }
-
 div p{
     font-family: var(--fuente-titulo);
     font-size: 1rem;
@@ -61,11 +53,8 @@ div p{
     padding: 20px;
     text-align: start;
 }
-
-
 img{
-    width: 70%;
-    
+    width: 70%; 
 }
 
 /* Seccion primera pregunta del conocenos  */
@@ -81,7 +70,6 @@ img{
 .proposito hr{
     margin-left: 40%;
 }
-
 .proposito p{
     margin: 20px;
     text-align: end;
@@ -94,7 +82,6 @@ img{
     margin: 0 auto;
     font-size: 20px;
 }
-
 .entidades hr{
     width: 50%;
 }
@@ -102,19 +89,15 @@ img{
     width: 100%;
     display: flex;
     flex-direction: column;
-    
 }
-
 .entidades ul .items{
     font-family: var(--fuente-titulo);
     list-style:disc;
     margin-left: 50px;
     flex-wrap: wrap;
 }
-
 .entidades .texto2 .p2{
     flex-direction: column;
-
 }
 
 /* Seccion cuarta pregunta del conocenos  */
@@ -122,11 +105,9 @@ img{
     text-align: end;
     padding-right: 20px;
 }
-
 .seleccion hr{
     margin-left: 40%;
 }
-
 .seleccion p{
     text-align: end;
     padding-left: 270px;
@@ -139,7 +120,6 @@ img{
     justify-content: center;
     flex-direction: column;
 }
-
 .contacto h2{
     padding-top: 5px;
 }
@@ -152,9 +132,7 @@ img{
     align-items:  center;
     justify-content: start;
     padding: 0 0 0 60px;
-
 }
-
 .contacto p{
     margin: 0;
     padding: 0 0 8px 20px;
@@ -167,17 +145,14 @@ footer{
     text-align: center;
     font-family: var(--fuente-logo);
 }
-
 footer h2{
     font-size: 3rem;
     padding: 20px 0 8px 0;
 }
-
 footer .footer2{
     font-size: 1rem;
     padding: 15px 0px 0 0px;
 }
-
 footer .footer3{
     font-size: 1.2rem;
     padding: 0 0 40px 0;

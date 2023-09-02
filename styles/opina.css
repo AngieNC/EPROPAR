@@ -7,13 +7,16 @@
     --fuente-titulo: "Poppins", sans-serif;
     --color-principal: #8db286;
 }
-
 html,body{
     width: 100vw;
     font-size: 16px;
 
 }
 
+/*importante para el nav*/
+.navbar a {
+    text-decoration: none !important;
+}
 main{
     margin: 0 auto;
     width: 100%;
@@ -26,7 +29,6 @@ main{
     text-align: center;
     padding-top: 40px;
 }
-
 .section_1 h3{
     margin-left: 10% ;
 }
@@ -35,14 +37,12 @@ main{
     font-size: 16px;
     color: #000000;
 }
-
 .section_1 ol .items{
     font-size: 1rem;
     list-style:decimal;
     margin-left: 15%;
     flex-wrap: wrap;
 }
-
 form.row {
     background-color: #D9D9D9;
     padding: 30px;
@@ -50,45 +50,37 @@ form.row {
     border-radius: 15px;
     font-family: var(--fuente-logo);
 }
-
 form .form-label{
     font-size: 1rem;
 }
-
 form .col-md-6 .form-control{
     padding: 10px;
     width: 100%;
     border-radius: 15px;
 }
-
 form .col-md-6 .form-select{
     width: 100%;
     padding: 10px;
     border-radius: 15px;
 }
-
 form .col-md-12 .form-control{
     width: 100%;
     padding: 10px;
     border-radius: 15px;
 }
-
 form .mb-6 .form-control{
     width: 100%;
     padding: 10px;
     border-radius: 15px;
 }
-
 form h3{
     text-align: center;
     font-family: var(--fuente-logo);
     padding-bottom: 10px;
 }
-
 form .mb-6:placeholder {
     font-family: var(--fuente-logo);
 }
-
 form .col-12 {
     display: flex;
     align-items: center;
@@ -107,7 +99,6 @@ form .col-12 {
     font-size: 1.1rem;
     font-weight: 600;
 }
-
 .col-12 .btn-2{
     margin: 10px;
     margin-bottom: 15px;
@@ -120,27 +111,22 @@ form .col-12 {
     font-size: 1.1rem;
     font-weight: 600;
 }
-
-
 footer{  
     background-color:var(--color-principal);
     width: 100%;
     text-align: center;
     font-family: var(--fuente-logo);
 }
-
-
 footer h2{
     font-size: 2rem;
     padding: 20px 0 8px 0;
 }
-
 footer .footer2{
     font-size: 0.6rem;
     padding: 15px 0px 0 0px;
 }
-
 footer .footer3{
     font-size: 0.8rem;
     padding: 0 0 40px 0;
+    margin-bottom: auto;
 }

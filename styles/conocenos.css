@@ -12,7 +12,6 @@ html,body{
     width: 100vw;
     font-size: 16px;
 }
-
 main{
     margin: 0 auto;
     width: 100%;
@@ -36,7 +35,6 @@ div h2{
     padding-bottom: 5px;
     padding-top: 50px;
 }
-
 div hr{
     align-items: start;
     width: 70%;
@@ -44,8 +42,6 @@ div hr{
     background-color: var(--color-principal);
     
 }
-
-
 div p{
     font-family: var(--fuente-titulo);
     font-size: 1rem;
@@ -68,15 +64,12 @@ img{
     width: 100%;
     margin: 0 auto;
 }
-
 .entidades ul {
     width: 100%;
     display: flex;
     flex-direction: column;
     
 }
-
-
 .entidades ul .items{
     font-family: var(--fuente-titulo);
     font-size: 1rem;
@@ -92,8 +85,6 @@ img{
     justify-content: center;
     flex-direction: column;
 }
-
-
 .contacto .contenedor-icon{ 
     display: flex;
     align-items: center;
@@ -108,18 +99,14 @@ footer{
     text-align: center;
     font-family: var(--fuente-logo);
 }
-
-
 footer h2{
     font-size: 2rem;
     padding: 20px 0 8px 0;
 }
-
 footer .footer2{
     font-size: 0.6rem;
     padding: 15px 0px 0 0px;
 }
-
 footer .footer3{
     font-size: 0.8rem;
     padding: 0 0 40px 0;
