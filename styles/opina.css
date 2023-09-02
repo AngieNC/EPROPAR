@@ -11,9 +11,14 @@
 html,body{
     width: 100vw;
     font-size: 16px;
+
 }
 
-
+main{
+    margin: 0 auto;
+    width: 100%;
+    background-color: white;
+}
 .section_1 h1{
     font-family: var(--fuente-logo);
     font-size: 29px;
@@ -117,12 +122,13 @@ form .col-12 {
 }
 
 
-footer{
+footer{  
     background-color:var(--color-principal);
     width: 100%;
     text-align: center;
     font-family: var(--fuente-logo);
 }
+
 
 footer h2{
     font-size: 2rem;

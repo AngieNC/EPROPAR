@@ -16,6 +16,7 @@ html,body{
 main{
     margin: 0 auto;
     width: 100%;
+    background-color: white;
 }
 
 /* Seccion primera pregunta del conocenos  */
