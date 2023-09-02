@@ -26,7 +26,7 @@
 
 3. **Sección de Conócenos**: <em>EPROPAR</em> presenta información sobre su misión, visión y el equipo detrás de esta entidad, resaltando su enfoque en la participación ciudadana y el desarrollo comunitario.
 
-4. **Sección Principal**: La página principal contiene información relevante sobre los temas más destacados del mes, las opiniones mejor calificadas y los proyectos respaldados por EPROPAR. También se incluyen noticias, eventos y actualizaciones relacionadas con el trabajo de la entidad.
+4. **Sección Principal**: La página principal contiene información relevante sobre los temas más destacados del mes, las opiniones mejor calificadas y los proyectos respaldados por <em>EPROPAR</em>. También se incluyen noticias, eventos y actualizaciones relacionadas con el trabajo de la entidad.
 
 5. **Proceso de Selección Mensual**: Cada mes, se seleccionan tres opiniones ganadoras en las categorías de Educación, Salud Mental, Infraestructura, Alimentación y Seguridad. Estas selecciones se basan en las calificaciones de los usuarios. Las opiniones ganadoras reciben apoyo económico, con el 50% del fondo destinado a la opinión más votada y el 25% para las dos siguientes con mayor votación. Este enfoque democrático fomenta la participación activa y el compromiso de la comunidad en la resolución de problemas locales.
 
@@ -47,7 +47,7 @@
 <ul>
   <li><strong>Colaboración:</strong> Figma desempeñó un papel crucial en la colaboración del equipo. Nos permitió trabajar de manera conjunta, lo que facilitó la comunicación y la resolución de problemas.</li><br/><br/>
   <li><strong>Adaptabilidad y Responsividad:</strong> Gracias a las clases impartidas, pudimos implementar en nuestra plataforma un diseño altamente adaptable y responsivo en diferentes dispositivos y tamaños de pantalla. Esto garantiza una experiencia de usuario consistente y agradable, independientemente del dispositivo que utilice el usuario.</li><br/><br/>
-  <li><strong>Fundamentos Sólidos de Desarrollo Web:</strong>: A través de este proyecto, hemos consolidado nuestros conocimientos en HTML y CSS, dos lenguajes fundamentales en el desarrollo web. Ahora tenemos una base sólida para construir y diseñar sitios web de manera efectiva.</li>
+  <li><strong>Fundamentos Sólidos de Desarrollo Web:</strong> A través de este proyecto, hemos consolidado nuestros conocimientos en HTML y CSS, dos lenguajes fundamentales en el desarrollo web. Ahora tenemos una base sólida para construir y diseñar sitios web de manera efectiva.</li>
 </ul>
 
 <br/><br/>
